@@ -56,7 +56,6 @@ export const metadata: Metadata = {
     creator: "@Jedediah_xo",
     images: ["/og-image.png"],
   },
-  },
 };
 
 export default function RootLayout({
