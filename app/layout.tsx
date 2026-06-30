@@ -29,10 +29,33 @@ export const metadata: Metadata = {
     shortcut: "/jay1.svg",
     apple: "/jay1.svg",
   },
+  metadataBase: new URL("https://jay-dev-portfolio.vercel.app/"),
+  creator: "Ogbekhilu Jedidiah",
   openGraph: {
-    title: `${site.name} — ${site.role}`,
-    description: site.tagline,
+    title: "Jay | Full Stack Developer Portfolio",
+    description:
+      "Explore Jay's portfolio featuring modern, responsive web apps built with cutting-edge web technologies.",
+    url: "https://jay-dev-portfolio.vercel.app/",
+    siteName: "Jay Portfolio",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: " Portfolio Preview",
+      },
+    ],
+    locale: "en_US",
     type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Jay | Full Stack Developer Portfolio",
+    description:
+      "Modern, responsive web apps built with React, Next.js, and Tailwind CSS.",
+    creator: "@Jedediah_xo",
+    images: ["/og-image.png"],
+  },
   },
 };
 
