@@ -24,6 +24,11 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: `${site.name} — ${site.role}`,
   description: site.tagline,
+  icons: {
+    icon: "/jay1.svg",
+    shortcut: "/jay1.svg",
+    apple: "/jay1.svg",
+  },
   openGraph: {
     title: `${site.name} — ${site.role}`,
     description: site.tagline,
